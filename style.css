@@ -1,0 +1,116 @@
+/* Corpo do site */
+body {
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(189, 120, 59);
+}
+
+/*Cabeçalho */
+header {
+    background-color: rgb(109, 32, 32);
+    color:rgb(96, 250, 14);
+    padding: 15px;
+    text-align: center;
+}
+
+/* Menu */
+nav {
+    margin-top: 20px;
+}
+
+nav a{
+    color:rgb(242, 168, 8);
+    text-decoration: 10px;
+    margin:0 0px;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    color:rgb(169, 9, 9);
+}
+
+/* Conteúdo principal */
+main{
+    padding: 20px;
+}
+
+/*Seções */
+section { 
+    background-color: rgb(76, 43, 3);
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+/* Títulos */
+h1 {
+    margin: 10px;
+}
+h2 {
+    color:rgb(243, 120, 12);
+}
+p {
+    color:rgb(165, 71, 158);
+}
+
+/* Listas */ 
+ul, ol {
+    padding-left: 30px;
+}
+
+/* Imagens */
+img {
+    max-width: 300%;
+}
+
+
+
+/* Tabela */
+table {
+    width: 50%;
+    border-radius: 10px;
+    border-collapse: collapse;
+}
+th,td {
+    border: 1px solid rgb(51, 240, 8);
+    padding: 3px;
+    text-align: left;
+}
+th{
+    background-color: rgb(252, 9, 163);
+    color:rgba(60, 231, 12, 0);
+}
+
+/* Formulário */
+form {
+    display: block;
+}
+input, textarea {
+    width: 260px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border:1px solid rgb(247, 36, 36);
+    border-radius: 5px;
+}
+
+/* Botão */
+button {
+    background-color: rgb(35, 220, 7);
+    color:rgb(0, 0, 0);
+    padding: 7px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(248, 95, 18);
+    color:rgb(0, 0, 0)
+}
+
+
+/* Rodapé */
+footer {
+    background-color: rgb(114, 61, 7);
+    color:rgb(180, 232, 9);
+    padding: 10px;
+}
